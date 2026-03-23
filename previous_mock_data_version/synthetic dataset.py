@@ -3,11 +3,11 @@ import pandas as pd
 import random
 from datetime import datetime, timedelta
 
-# 1. Set up the last 180 days
+# Set up the last 180 days
 start_date = datetime.now() - timedelta(days=180)
 dates = [start_date + timedelta(days=i) for i in range(180)]
 
-# 2. Generate random, realistic fake data
+# Generate random, realistic fake data
 data = {
     "Date": [d.strftime("%Y-%m-%d") for d in dates],
     "Calories": [random.randint(1978, 2500) for _ in range(180)],
@@ -19,9 +19,9 @@ data = {
     "Stress_Level": [random.choice(["Low", "Medium", "High"]) for _ in range(180)]
 }
 
-# 3. Create a DataFrame (a table)
+# Create a table
 df = pd.DataFrame(data)
 
-# 4. Save it as an Excel/CSV file
+# Save it as an Excel/CSV file
 df.to_csv("mock_health_data.csv", index=False)
 print("Success! Your fake dataset 'mock_health_data.csv' is ready.")

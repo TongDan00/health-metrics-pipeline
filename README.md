@@ -23,7 +23,7 @@ To make the simulated T1D data actionable, I connected the processed CSVs to Tab
 
 < Click the image above to view the interactive dashboard on Tableau Public >
 
-Key Dashboard Features:
+## Key Dashboard Features:
 - Daily Blood Glucose Trends: Visualizing the 24-hour curve, highlighting peaks and time-in-range.
 - Insulin vs. Carbs: Tracking the bolus timing and its direct impact on post-meal spikes.
 - Activity Impact: Filtering glucose trends by exercise intensity (Walk, Run, Strength).
@@ -48,10 +48,10 @@ health-metrics-pipeline/
 └── README.md                     # Project documentation
 
 
-## Project Roadmap: Advanced Biological Logic
+# Project Roadmap: Advanced Biological Logic
 To make the data generation and analysis as realistic as possible, I am actively building out the following logical rules into the Python pipeline:
 
-## External Factors & Illness: Adding logic to handle everyday variables like caffeine (moderate insulin resistance) and different artificial sweeteners (since their effects vary). For illness, the model focuses on decreased insulin sensitivity and higher glucose as the main drivers, but it also accounts for sudden CGM drops and electrolyte loss from stomach issues.
+# External Factors & Illness: Adding logic to handle everyday variables like caffeine (moderate insulin resistance) and different artificial sweeteners (since their effects vary). For illness, the model focuses on decreased insulin sensitivity and higher glucose as the main drivers, but it also accounts for sudden CGM drops and electrolyte loss from stomach issues.
 
 - Macronutrient Tracking: Adding precise calorie and portion metrics.
 
