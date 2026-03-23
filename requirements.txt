@@ -1,0 +1,10 @@
+# Data manipulation and CSV/SQL exporting
+pandas==2.2.1
+numpy==1.26.4
+
+# Database Connections
+SQLAlchemy==2.0.28 
+
+# Environment & Security
+python-dotenv==1.0.1
+
