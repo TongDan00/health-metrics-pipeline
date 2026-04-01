@@ -23,7 +23,8 @@ Health data is incredibly sensitive, and I wanted to keep my partner's real medi
 ## Dashboard & Visualizations
 To make the simulated T1D data actionable, I connected the processed CSVs to Tableau to build an interactive monitoring dashboard. 
 
-[![Health Metrics Dashboard Preview](images/dashboard.png)](https://public.tableau.com/app/profile/yutong.lin7507/viz/health_metrics_pipeline_dashboard/NutritionInsulinAnalysis)
+[![Lifestyle and External Factors Dashboard](images/lifestyle_factors.jpg)](https://public.tableau.com/app/profile/yutong.lin7507/viz/health_metrics_pipeline_dashboard/NutritionInsulinAnalysis)
+*Figure 2: The "Lifestyle & External Factors" dashboard analyzing the impact of workout duration, exercise timing, and illness on average blood glucose.*
 
 ### Key Dashboard Features:
 - Daily Blood Glucose Trends: Visualizing the 24-hour curve, highlighting peaks and time in range.
@@ -61,7 +62,7 @@ To make this pipeline even more robust, I am actively building out the following
 
 - *Device Mechanics*: Simulating CGM recalibration events and data gaps.
 
-## Lessons Learned: Iterative DevelopmentIterative
+## Lessons Learned: Iterative Development
 A big part of this project was making sure the generated data actually reflected realistic biological patterns.
 
 At first, I built the mock data using simplified random distributions. But after visualizing the `v0` data in an early dashboard draft, I noticed some physiological patterns did not make sense. Some blood glucose trends did not match the expected effects of stress, sleep, carbohydrate intake, and insulin response. The scatter plot also showed a flat relationship between carbohydrate intake and insulin units, which is not realistic.
