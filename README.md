@@ -23,7 +23,7 @@ Health data is incredibly sensitive, and I wanted to keep my partner's real medi
 ## Dashboard & Visualizations
 To make the simulated T1D data actionable, I connected the processed CSVs to Tableau to build an interactive monitoring dashboard. 
 
-[![Lifestyle and External Factors Dashboard](images/lifestyle_factors.jpg)](https://public.tableau.com/app/profile/yutong.lin7507/viz/health_metrics_pipeline_dashboard/NutritionInsulinAnalysis)
+[![Lifestyle and External Factors Dashboard](images/lifestyle_factors.png)](https://public.tableau.com/app/profile/yutong.lin7507/viz/health_metrics_pipeline_dashboard/NutritionInsulinAnalysis)
 *Figure 2: The "Lifestyle & External Factors" dashboard analyzing the impact of workout duration, exercise timing, and illness on average blood glucose.*
 
 ### Key Dashboard Features:
